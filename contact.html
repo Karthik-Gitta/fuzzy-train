@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Visit | COOKIES AND CREAM (CNC) Nizamabad</title>
+  <meta name="description" content="Visit Cookies and Cream in Vinayak Nagar, Nizamabad. Get exact address, directions, click-to-call phone numbers, live opening hours, and table reservation info.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./components.css">
+</head>
+<body>
+
+  <!-- Top Bar with Live Open/Closed Status -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <a href="tel:+918885366660" class="topbar-item" title="Call primary cafe line"><i class="fa-solid fa-phone"></i> +91 88853 66660</a>
+        <a href="tel:+918466866660" class="topbar-item" title="Call secondary cafe line"><i class="fa-solid fa-mobile-screen"></i> +91 84668 66660</a>
+        <a href="mailto:cookiesncreamscnc@gmail.com" class="topbar-item"><i class="fa-solid fa-envelope"></i> cookiesncreamscnc@gmail.com</a>
+      </div>
+      <div class="topbar-right">
+        <div class="live-status-pill is-open" id="contactTopStatus">
+          <span class="live-status-dot"></span>
+          <span>Checking Hours...</span>
+        </div>
+        <span class="topbar-item" style="font-size: 0.78rem; opacity: 0.85;">
+          <i class="fa-regular fa-clock"></i> 11:00 AM - 10:30 PM Daily
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-link">
+          <div class="brand-emblem-wrap">
+            <img src="assets/images/logo.png" alt="Cookies and Cream Emblem" class="brand-emblem-img">
+          </div>
+          <div class="brand-text-block">
+            <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+            <span class="brand-tagline">Crafting Sweet Moments</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact & Visit</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="tel:+918885366660" class="btn btn-gold btn-sm">
+            <i class="fa-solid fa-phone"></i> Call Now
+          </a>
+          <button class="mobile-nav-toggle" aria-label="Open mobile menu">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <div class="drawer-header">
+      <div class="brand-text-block">
+        <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+        <span class="brand-tagline">Crafting Sweet Moments</span>
+      </div>
+      <button class="drawer-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <ul class="drawer-nav">
+      <li><a href="index.html" class="drawer-link"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="menu.html" class="drawer-link"><i class="fa-solid fa-utensils"></i> Menu</a></li>
+      <li><a href="about.html" class="drawer-link"><i class="fa-solid fa-heart"></i> About Us</a></li>
+      <li><a href="contact.html" class="drawer-link active"><i class="fa-solid fa-location-dot"></i> Contact & Directions</a></li>
+    </ul>
+    <div class="drawer-info">
+      <div class="drawer-contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+          <a href="tel:+918885366660">+91 88853 66660</a><br>
+          <a href="tel:+918466866660">+91 84668 66660</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       HERO BANNER
+       ========================================================================== -->
+  <section class="section section-dark" style="padding: 70px 0 50px; text-align: center;">
+    <div class="container">
+      <span class="section-tag"><i class="fa-solid fa-location-dot"></i> Visit Our Cafe</span>
+      <h1 class="section-title">We'd Love to <span class="serif">Host You</span></h1>
+      <p class="section-desc" style="max-width: 680px; margin: 0 auto;">
+        Drop by for your daily caffeine fix, sweet dessert cravings, or casual dinner catch-ups. Located right in the heart of Vinayak Nagar, Nizamabad.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT CARDS & INTERACTIVE FORM LAYOUT
+       ========================================================================== -->
+  <section class="section section-pattern">
+    <div class="container">
+      <div class="contact-layout">
+        <!-- Left Column: Business Details & Click-To-Call -->
+        <div class="contact-info-cards">
+          <!-- Address Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-card-content">
+              <h4>Cafe Address</h4>
+              <p>
+                <strong>COOKIES AND CREAM (CNC)</strong><br>
+                1/12-142/7/1, Srinagar Colony,<br>
+                Vinayak Nagar, Nizamabad, Telangana – 503003
+              </p>
+              <div style="margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href="https://maps.google.com/?q=Cookies+N+Creams+Vinayak+Nagar+Nizamabad" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                  <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+                </a>
+                <button class="btn btn-sm" style="border: 1px solid var(--color-cream-border); color: var(--color-muted);" data-copy-text="1/12-142/7/1, Srinagar Colony, Vinayak Nagar, Nizamabad, 503003">
+                  <i class="fa-regular fa-copy"></i> Copy Address
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phone Numbers (Click-to-Call on Mobile & Desktop) -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="contact-card-content">
+              <h4>Phone Inquiries & Reservations</h4>
+              <p>Tap either number below to connect directly with our cafe reception:</p>
+              <div class="phone-action-buttons">
+                <a href="tel:+918885366660" class="phone-btn" title="Call Line 1">
+                  <i class="fa-solid fa-phone"></i> +91 88853 66660
+                </a>
+                <a href="tel:+918466866660" class="phone-btn" title="Call Line 2">
+                  <i class="fa-solid fa-phone"></i> +91 84668 66660
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email & Social -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-card-content">
+              <h4>Email & Social Updates</h4>
+              <p>For celebrations, feedback, or party inquiries:</p>
+              <p style="margin-top: 6px;">
+                <a href="mailto:cookiesncreamscnc@gmail.com" style="color: var(--color-primary); font-weight: 600; text-decoration: underline;">
+                  cookiesncreamscnc@gmail.com
+                </a>
+              </p>
+              <div style="display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap;">
+                <a href="https://www.instagram.com/cookiesncreams_cnc/" target="_blank" rel="noopener noreferrer" class="btn btn-sm" style="background: #E1306C; color: #FFFFFF;">
+                  <i class="fa-brands fa-instagram"></i> Instagram (@cookiesncreams_cnc)
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm" style="background: #1877F2; color: #FFFFFF;">
+                  <i class="fa-brands fa-facebook-f"></i> Facebook
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Operating Hours & Live Status Card -->
+          <div class="contact-card" style="border-left: 4px solid var(--color-gold);">
+            <div class="contact-card-icon" style="color: var(--color-gold); background: rgba(197, 160, 89, 0.1);">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="contact-card-content">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+                <h4>Operating Hours</h4>
+                <div class="live-status-pill is-open" id="contactCardLiveStatus">
+                  <span class="live-status-dot"></span>
+                  <span>Open Now</span>
+                </div>
+              </div>
+              <p style="font-size: 1.05rem; font-weight: 700; color: var(--color-primary); margin-top: 6px;">
+                Monday through Sunday (All 7 Days)
+              </p>
+              <p style="font-size: 1.15rem; font-family: var(--font-heading); color: var(--color-gold-dark); font-weight: 700;">
+                11:00 AM &ndash; 10:30 PM
+              </p>
+              <p style="font-size: 0.88rem; color: var(--color-muted); margin-top: 4px;" data-cafe-timing-desc>
+                Dine-in, takeaway, and delivery orders are welcomed all day.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Inquiry / Table Reservation Form -->
+        <div class="contact-form-container">
+          <span class="section-tag" style="margin-bottom: 12px;"><i class="fa-solid fa-calendar-check"></i> Connect With Us</span>
+          <h3>Send a Message or <span class="serif" style="color: var(--color-gold);">Reserve a Table</span></h3>
+          <p>Planning a birthday, casual get-together, or have feedback? Drop us a line and our team will get back to you promptly.</p>
+
+          <form id="cafeContactForm">
+            <div class="form-group">
+              <label class="form-label" for="contactName">Your Full Name *</label>
+              <input type="text" id="contactName" name="name" class="form-input" placeholder="e.g. Varun Raj" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contactPhone">Mobile Number (Click-To-Reach) *</label>
+              <input type="tel" id="contactPhone" name="phone" class="form-input" placeholder="e.g. 98765 43210" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contactType">Purpose of Inquiry</label>
+              <select id="contactType" name="type" class="form-select">
+                <option value="" disabled selected>Select</option>
+                <option value="table">Table Reservation</option>
+                <option value="birthday">Birthday / Party Celebration</option>
+                <option value="takeaway">Bulk Takeaway / Catering</option>
+                <option value="feedback">Feedback / Suggestion</option>
+                <option value="other">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contactMessage">Your Message / Special Requests</label>
+              <textarea id="contactMessage" name="message" class="form-textarea" placeholder="Tell us date, time, number of guests, or favorite dishes..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-lg" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Send Inquiry / Reservation
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- ==========================================================================
+           INTERACTIVE GOOGLE MAPS EMBED CONTAINER (Verified Cafe Location)
+           ========================================================================== -->
+      <div id="map-location" style="margin-top: 60px;">
+        <div class="section-header" style="margin-bottom: 24px; text-align: left;">
+          <span class="section-tag"><i class="fa-solid fa-map-location-dot"></i> Interactive Map</span>
+          <h2 class="section-title" style="font-size: 2rem;">Find Us in <span class="serif">Vinayak Nagar</span></h2>
+        </div>
+
+        <div class="map-embed-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.89758992078!2d78.1146326!3d18.668591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcdc585c1bfddad%3A0x12108cb8ba409248!2sCookies%20N%20Creams!5e0!3m2!1sen!2sin!4v1795412688358!5m2!1sen!2sin"" 
+            title="Cookies and Cream Nizamabad Google Map Location"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DELIVERY REDIRECT CARDS (SWIGGY & ZOMATO ONLY)
+       ========================================================================== -->
+  <section class="delivery-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-bag-shopping"></i> Stay Home & Indulge</span>
+        <h2 class="section-title">Order From Anywhere in <span class="serif">Nizamabad</span></h2>
+      </div>
+
+      <div class="delivery-grid-two">
+        <div class="delivery-card swiggy">
+          <div class="delivery-card-header">
+            <div class="delivery-brand-badge">
+              <div class="delivery-icon-box"><i class="fa-solid fa-utensils"></i></div>
+              <div class="delivery-brand-names">
+                <h3>Swiggy</h3>
+                <span>Cookies & Cream Online</span>
+              </div>
+            </div>
+            <div class="delivery-rating"><i class="fa-solid fa-star"></i> 4.3 ★</div>
+          </div>
+          <div class="delivery-body">
+            <p>Fast doorstep delivery with live GPS tracking on Swiggy.</p>
+          </div>
+          <a href="https://www.swiggy.com/city/nizamabad/cookies-n-creams-near-abs-enclave-puhlong-x-road-rest872017" target="_blank" rel="noopener noreferrer" class="delivery-btn">
+            <span>Order on Swiggy</span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <div class="delivery-card zomato">
+          <div class="delivery-card-header">
+            <div class="delivery-brand-badge">
+              <div class="delivery-icon-box"><i class="fa-solid fa-bowl-food"></i></div>
+              <div class="delivery-brand-names">
+                <h3>Zomato</h3>
+                <span>Cookies & Cream Nizamabad</span>
+              </div>
+            </div>
+            <div class="delivery-rating"><i class="fa-solid fa-star"></i> 4.4 ★</div>
+          </div>
+          <div class="delivery-body">
+            <p>Order your favorite shakes, burgers, and pizzas with app deals.</p>
+          </div>
+          <a href="https://www.zomato.com/nizamabad/cookies-n-creams-nizamabad-locality/order" target="_blank" rel="noopener noreferrer" class="delivery-btn">
+            <span>Order on Zomato</span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER (SORTED & VERIFIED QUICK NAV)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <div class="brand-emblem-wrap">
+              <img src="assets/images/logo.png" alt="Cookies and Cream Emblem" class="brand-emblem-img">
+            </div>
+            <div class="brand-text-block">
+              <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+              <span class="brand-tagline">Crafting Sweet Moments</span>
+            </div>
+          </a>
+          <p class="footer-about">
+            Nizamabad’s destination for gourmet thick shakes, artisan specialty coffees, sizzlers, waffles, pizzas, and comfortable hangout vibes.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/cookiesncreams_cnc/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:cookiesncreamscnc@gmail.com" class="social-icon-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+<div>
+            <h4 class="footer-col-title">Quick Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+              <li><a href="#gallery-section"><i class="fa-solid fa-angle-right"></i> Photo Gallery</a></li>
+              <li><a href="#delivery-section" ><i class="fa-solid fa-angle-right"></i> Swiggy & Zomato</a></li>
+              <li><a href="#reviews-section"><i class="fa-solid fa-angle-right"></i> Customer Reviews</a></li>
+            </ul>
+          </div>
+
+        <div>
+          <h4 class="footer-col-title">Opening Hours</h4>
+          <div class="timing-box">
+            <div class="timing-days">Monday – Sunday (All 7 Days)</div>
+            <div class="timing-hours">11:00 AM – 10:30 PM</div>
+            <div class="live-status-pill is-open" style="margin-top: 6px;">
+              <span class="live-status-dot"></span>
+              <span>Open Now</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Cafe Location</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                1/12-142/7/1, Srinagar Colony,<br>
+                Vinayak Nagar, Nizamabad - 503003
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <a href="tel:+918885366660">+91 88853 66660</a><br>
+                <a href="tel:+918466866660">+91 84668 66660</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 COOKIES AND CREAM (CNC). All Rights Reserved.</div>
+        <div>Crafting Sweet Moments in Nizamabad.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Bar (Cleaned) -->
+  <div class="floating-action-bar">
+    <div class="floating-action-inner">
+      <a href="tel:+918885366660" class="floating-btn primary-call">
+        <i class="fa-solid fa-phone-volume"></i>
+        <span>Call</span>
+      </a>
+      <a href="menu.html" class="floating-btn">
+        <i class="fa-solid fa-utensils"></i>
+        <span>Menu</span>
+      </a>
+      <a href="index.html#gallery-section" class="floating-btn">
+        <i class="fa-solid fa-camera"></i>
+        <span>Gallery</span>
+      </a>
+      <a href="#map-location" class="floating-btn">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Directions</span>
+      </a>
+    </div>
+  </div>
+
+  <button class="back-to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Scripts -->
+  <script src="./main.js"></script>
+  <script src="./contact.js"></script>
+</body>
+</html>

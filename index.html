@@ -1,0 +1,1262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      COOKIES AND CREAM (CNC) | Artisan Cafe, Shakes & Desserts in Nizamabad
+    </title>
+    <meta
+      name="description"
+      content="Welcome to Cookies and Cream (CNC) - Nizamabad's favorite cafe for artisan thick shakes, freshly ground Arabica coffee, handcrafted pizzas, burgers, waffles, and cozy hangout vibes."
+    />
+    <meta
+      name="keywords"
+      content="Cookies and Cream Nizamabad, CNC cafe, cafes in Nizamabad, thick shakes Nizamabad, coffee shop, waffles, artisan cafe"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./components.css" />
+  </head>
+  <body>
+   
+    <!-- ==========================================================================
+       TOP ANNOUNCEMENT & LIVE OPEN/CLOSED BAR
+       ========================================================================== -->
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-left">
+          <a
+            href="tel:+918885366660"
+            class="topbar-item"
+            title="Call primary cafe line"
+          >
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 88853 66660</span>
+          </a>
+          <a
+            href="tel:+918466866660"
+            class="topbar-item"
+            title="Call secondary cafe line"
+          >
+            <i class="fa-solid fa-mobile-screen"></i>
+            <span>+91 84668 66660</span>
+          </a>
+          <a
+            href="mailto:cookiesncreamscnc@gmail.com"
+            class="topbar-item"
+            title="Email us"
+          >
+            <i class="fa-solid fa-envelope"></i>
+            <span>cookiesncreamscnc@gmail.com</span>
+          </a>
+        </div>
+        <div class="topbar-right">
+          <!-- Live Real-Time Open/Closed Badge -->
+          <div class="live-status-pill is-open" id="topbarStatusPill">
+            <span class="live-status-dot"></span>
+            <span>Checking Cafe Hours...</span>
+          </div>
+          <span class="topbar-item" style="font-size: 0.78rem; opacity: 0.85">
+            <i class="fa-regular fa-clock"></i> 11:00 AM - 10:30 PM Daily
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+       PRIMARY STICKY NAVBAR
+       ========================================================================== -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar">
+          <!-- Brand Logo & Identity -->
+          <a
+            href="index.html"
+            class="brand-link"
+            aria-label="Cookies and Cream Home"
+          >
+            <div class="brand-emblem-wrap">
+              <img
+                src="assets/images/logo.png"
+                alt="Cookies and Cream Emblem"
+                class="brand-emblem-img"
+              />
+            </div>
+            <div class="brand-text-block">
+              <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+              <span class="brand-tagline">Crafting Sweet Moments</span>
+            </div>
+          </a>
+
+          <!-- Desktop Navigation Links -->
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="menu.html" class="nav-link">Menu</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="contact.html" class="nav-link">Contact & Visit</a></li>
+          </ul>
+
+          <!-- Header Actions -->
+          <div class="nav-actions">
+            <a href="#delivery-section" class="btn btn-gold btn-sm">
+              <i class="fa-solid fa-bag-shopping"></i> Order Online
+            </a>
+            <button
+              class="mobile-nav-toggle"
+              aria-label="Open mobile navigation menu"
+            >
+              <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer-overlay"></div>
+    <aside class="mobile-drawer">
+      <div class="drawer-header">
+        <div class="brand-text-block">
+          <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+          <span class="brand-tagline">Crafting Sweet Moments</span>
+        </div>
+        <button class="drawer-close" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Live Status inside drawer -->
+      <div style="margin-bottom: 24px">
+        <div
+          class="live-status-pill is-open"
+          style="width: 100%; justify-content: center"
+        >
+          <span class="live-status-dot"></span>
+          <span>Checking Hours...</span>
+        </div>
+      </div>
+
+      <ul class="drawer-nav">
+        <li>
+          <a href="index.html" class="drawer-link active">
+            <i class="fa-solid fa-house"></i> Home
+          </a>
+        </li>
+        <li>
+          <a href="menu.html" class="drawer-link">
+            <i class="fa-solid fa-utensils"></i> Explore Menu
+          </a>
+        </li>
+        <li>
+          <a href="about.html" class="drawer-link">
+            <i class="fa-solid fa-heart"></i> Our Story & Vibe
+          </a>
+        </li>
+        <li>
+          <a href="contact.html" class="drawer-link">
+            <i class="fa-solid fa-location-dot"></i> Contact & Directions
+          </a>
+        </li>
+        <li>
+          <a
+            href="#delivery-section"
+            class="drawer-link"
+            style="color: var(--color-gold-light)"
+          >
+            <i class="fa-solid fa-motorcycle"></i> Order Delivery (Swiggy /
+            Zomato)
+          </a>
+        </li>
+      </ul>
+
+      <div class="drawer-info">
+        <div class="drawer-contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <a href="tel:+918885366660">+91 88853 66660</a><br />
+            <a href="tel:+918466866660">+91 84668 66660</a>
+          </div>
+        </div>
+        <div class="drawer-contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Srinagar Colony, Vinayak Nagar, Nizamabad - 503003</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ==========================================================================
+       HERO SECTION (Designed for slow-motion video loop or dark photo overlay)
+       ========================================================================== -->
+    <section class="hero">
+      <div class="hero-bg-container">
+        <div
+          class="image-placeholder"
+          style="
+            position: absolute;
+            inset: 0;
+            min-height: 100%;
+            border: none;
+            background: radial-gradient(
+              circle at center,
+              #112c14 0%,
+              #001804 100%
+            );
+          "
+        >
+          <i
+            class="fa-solid fa-film placeholder-icon"
+            style="font-size: 3.5rem; opacity: 0.35"
+          ></i>
+          <span class="placeholder-label" style="opacity: 0.5"
+            >[Insert Hero Video/Photo - 1920x1080 Loop]</span
+          >
+          <span class="placeholder-dimensions" style="opacity: 0.4"
+            >Cinematic Slow-Mo Cafe Ambience or Espresso Pour</span
+          >
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-star"></i> Nizamabad's Favorite Cozy Cafe
+        </div>
+
+        <h1 class="hero-title">
+          Crafting Sweet
+          <span class="serif-italic gold-text">Moments & Memories</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Indulge in artisanal thick shakes, freshly ground Arabica coffee,
+          handcrafted stone-baked pizzas, and decadent chocolate waffles in an
+          inviting, luxury-inspired ambience.
+        </p>
+
+
+        <!-- Quick Highlights Bar -->
+        <div class="hero-features-bar">
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <div class="hero-feature-text">
+              <h4>Freshly Brewed</h4>
+              <p>100% Arabica Blends</p>
+            </div>
+          </div>
+
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">
+              <i class="fa-solid fa-ice-cream"></i>
+            </div>
+            <div class="hero-feature-text">
+              <h4>Artisan Bakes</h4>
+              <p>Decadent Thick Shakes</p>
+            </div>
+          </div>
+
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">
+              <i class="fa-solid fa-couch"></i>
+            </div>
+            <div class="hero-feature-text">
+              <h4>Cozy Ambience</h4>
+              <p>AC Comfort & Free Wi-Fi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       QUICK SUMMARY CARDS SECTION
+       ========================================================================== -->
+    <section class="section section-pattern">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fa-solid fa-sparkles"></i> The CNC Experience</span
+          >
+          <h2 class="section-title">
+            Why Nizamabad Loves <span class="serif">Cookies and Cream</span>
+          </h2>
+          <p class="section-desc">
+            From evening catch-ups with friends to indulgent dessert cravings,
+            we craft every dish and beverage with uncompromising passion and
+            fresh ingredients.
+          </p>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-icon-box">
+              <i class="fa-solid fa-mug-saucer"></i>
+            </div>
+            <h3 class="highlight-title">Artisan Coffee & Brews</h3>
+            <p class="highlight-desc">
+              From velvety Spanish Caramel Lattes to intense Americanos and
+              molten hot chocolate, our barista counter brews perfection in
+              every single cup.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon-box">
+              <i class="fa-solid fa-glass-water"></i>
+            </div>
+            <h3 class="highlight-title">Monster Thick Shakes</h3>
+            <p class="highlight-desc">
+              Loaded with crushed Oreo cookies, creamy dairy ice cream, Belgian
+              chocolate, and Lotus Biscoff crunches. Thick, rich, and
+              unforgettable.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon-box">
+              <i class="fa-solid fa-pizza-slice"></i>
+            </div>
+            <h3 class="highlight-title">Gourmet Savory Treats</h3>
+            <p class="highlight-desc">
+              Crispy gourmet paneer burgers, loaded peri-peri fries, crunchy
+              club sandwiches, and sizzling artisan thin-crust pizzas made hot
+              to order.
+            </p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon-box">
+              <i class="fa-solid fa-couch"></i>
+            </div>
+            <h3 class="highlight-title">Aesthetic Cozy Ambience</h3>
+            <p class="highlight-desc">
+              Designed with deep forest green hues, warm ambient lighting,
+              comfortable seating, and cozy corners perfect for celebrations and
+              relaxing dates.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       FEATURED HIGHLIGHTS PREVIEW 
+       ========================================================================== -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fa-solid fa-crown"></i> Chef's Recommendations</span
+          >
+          <h2 class="section-title">
+            Most Loved <span class="serif">Cafe Signatures</span>
+          </h2>
+          <p class="section-desc">
+            Handcrafted with premium chocolate, fresh dairy cream, and bold
+            spices. A preview of what awaits you at our tables.
+          </p>
+        </div>
+
+        <div class="grid-container" style="margin-bottom: 48px">
+      <!-- Card 1 -->
+      <div class="item-box lift-box">
+        <div class="dark-top-section">
+          <div class="status-badge">BESTSELLER</div>
+          <div class="veg-indicator"><i class="fa-solid fa-square"></i></div>
+          <div class="placeholder-content">
+            <i class="fa-solid fa-glass-water placeholder-icon"></i>
+            <span class="placeholder-label">[SIGNATURE SHAKE PHOTO]</span>
+            <span class="placeholder-dimensions">600 x 400</span>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="title-row">
+            <h3 class="item-title">Cookies & Cream Monster Shake</h3>
+            <span class="item-price">₹189</span>
+          </div>
+          <div class="category-label">THICK SHAKES</div>
+          <p class="item-description">
+            Crushed dark Oreo biscuits churned with velvety vanilla ice
+            cream, rich chocolate fudge, and topped with cookie crunch.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="item-box lift-box">
+        <div class="dark-top-section">
+          <div class="status-badge">MUST TRY</div>
+          <div class="veg-indicator"><i class="fa-solid fa-square"></i></div>
+          <div class="placeholder-content">
+            <i class="fa-solid fa-fire placeholder-icon"></i>
+            <span class="placeholder-label">[SIZZLING BROWNIE PHOTO]</span>
+            <span class="placeholder-dimensions">600 x 400</span>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="title-row">
+            <h3 class="item-title">Sizzling Brownie with Ice Cream</h3>
+            <span class="item-price">₹219</span>
+          </div>
+          <div class="category-label">WAFFLES & SUNDAES</div>
+          <p class="item-description">
+            Gooey walnut fudge brownie served on a cast iron sizzler with a
+            cold vanilla bean scoop and bubbling hot chocolate sauce.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="item-box lift-box">
+        <div class="dark-top-section">
+          <div class="status-badge">CHEF CHOICE</div>
+          <div class="veg-indicator"><i class="fa-solid fa-square"></i></div>
+          <div class="placeholder-content">
+            <i class="fa-solid fa-burger placeholder-icon"></i>
+            <span class="placeholder-label">[CRISPY PANEER BURGER PHOTO]</span>
+            <span class="placeholder-dimensions">600 x 400</span>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="title-row">
+            <h3 class="item-title">Crispy Paneer Supreme Burger</h3>
+            <span class="item-price">₹179</span>
+          </div>
+          <div class="category-label">GOURMET BURGERS</div>
+          <p class="item-description">
+            Panko-crusted fresh cottage cheese steak, spicy peri-peri
+            remoulade, crisp iceberg lettuce in a golden brioche bun.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="item-box lift-box">
+        <div class="dark-top-section">
+          <div class="status-badge">CLASSIC</div>
+          <div class="veg-indicator"><i class="fa-solid fa-square"></i></div>
+          <div class="placeholder-content">
+            <i class="fa-solid fa-pizza-slice placeholder-icon"></i>
+            <span class="placeholder-label">[CLASSIC MARGHERITA PHOTO]</span>
+            <span class="placeholder-dimensions">600 x 400</span>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="title-row">
+            <h3 class="item-title">Classic Margherita Basil Pizza</h3>
+            <span class="item-price">₹249</span>
+          </div>
+          <div class="category-label">ARTISAN PIZZAS</div>
+          <p class="item-description">
+            Hand-stretched thin crust, simmered Italian tomato sauce, melted
+            mozzarella cheese, fresh basil leaves and virgin olive oil.
+          </p>
+        </div>
+      </div>
+    </div>
+
+        <div style="text-align: center">
+          <a href="menu.html" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-list"></i> Browse Full Menu
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       INTERACTIVE PHOTO GALLERY SECTION (NEW & RESPONSIVE)
+       ========================================================================== -->
+    <section class="section section-dark" id="gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fa-solid fa-camera"></i> Visual Gallery</span
+          >
+          <h2 class="section-title">
+            The Cookies & Cream <span class="serif">Gallery</span>
+          </h2>
+          <p class="section-desc">
+            Experience our cozy vibes, barista pours, decadent desserts, and
+            warm gatherings through our lens.
+          </p>
+        </div>
+
+        <!-- Gallery Category Filters -->
+        <div class="gallery-filters">
+          <button class="gallery-filter-btn active" data-gallery-filter="all">
+            All Moments
+          </button>
+          <button class="gallery-filter-btn" data-gallery-filter="ambience">
+            Ambience & Interiors
+          </button>
+          <button class="gallery-filter-btn" data-gallery-filter="shakes">
+            Shakes & Desserts
+          </button>
+          <button class="gallery-filter-btn" data-gallery-filter="coffee">
+            Artisan Coffee
+          </button>
+          <button class="gallery-filter-btn" data-gallery-filter="savory">
+            Pizzas & Savory
+          </button>
+        </div>
+
+        <!-- Interactive Gallery Grid -->
+        <div class="interactive-gallery-grid">
+          <div class="gallery-card" data-category="ambience">
+            <div class="image-placeholder" style="height: 100%; border: none">
+              <i class="fa-solid fa-couch placeholder-icon"></i>
+              <span class="placeholder-label">[Main Lounge Seating]</span>
+              <span class="placeholder-dimensions">800 x 600 • Ambience</span>
+            </div>
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Ambience</span>
+              <h4 class="gallery-card-title">
+                Cozy Green Lounge & Sofa Corners
+              </h4>
+            </div>
+            <div class="gallery-expand-icon">
+              <i class="fa-solid fa-expand"></i>
+            </div>
+          </div>
+
+          <div class="gallery-card" data-category="shakes">
+            <div class="image-placeholder" style="height: 100%; border: none">
+              <i class="fa-solid fa-glass-water placeholder-icon"></i>
+              <span class="placeholder-label"
+                >[Signature Oreo Monster Shake]</span
+              >
+              <span class="placeholder-dimensions">800 x 600 • Dessert</span>
+            </div>
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Dessert & Shakes</span>
+              <h4 class="gallery-card-title">
+                Thick Cookies & Cream Milkshake
+              </h4>
+            </div>
+            <div class="gallery-expand-icon">
+              <i class="fa-solid fa-expand"></i>
+            </div>
+          </div>
+
+          <div class="gallery-card" data-category="coffee">
+            <div class="image-placeholder" style="height: 100%; border: none">
+              <i class="fa-solid fa-mug-hot placeholder-icon"></i>
+              <span class="placeholder-label">[Latte Art & Barista Bar]</span>
+              <span class="placeholder-dimensions">800 x 600 • Coffee</span>
+            </div>
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Artisan Coffee</span>
+              <h4 class="gallery-card-title">
+                Freshly Pulled Arabica Espresso & Latte Art
+              </h4>
+            </div>
+            <div class="gallery-expand-icon">
+              <i class="fa-solid fa-expand"></i>
+            </div>
+          </div>
+
+          <div class="gallery-card" data-category="savory">
+            <div class="image-placeholder" style="height: 100%; border: none">
+              <i class="fa-solid fa-pizza-slice placeholder-icon"></i>
+              <span class="placeholder-label">[Thin Crust Pizza Oven]</span>
+              <span class="placeholder-dimensions">800 x 600 • Savory</span>
+            </div>
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Pizzas & Savory</span>
+              <h4 class="gallery-card-title">
+                Handcrafted Stone-Baked Thin Crust Pizza
+              </h4>
+            </div>
+            <div class="gallery-expand-icon">
+              <i class="fa-solid fa-expand"></i>
+            </div>
+          </div>
+
+          <div class="gallery-card" data-category="shakes">
+            <div class="image-placeholder" style="height: 100%; border: none">
+              <i class="fa-solid fa-ice-cream placeholder-icon"></i>
+              <span class="placeholder-label"
+                >[Sizzling Chocolate Brownie]</span
+              >
+              <span class="placeholder-dimensions">800 x 600 • Dessert</span>
+            </div>
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Dessert & Shakes</span>
+              <h4 class="gallery-card-title">
+                Sizzler Brownie with Vanilla Scoop & Fudge
+              </h4>
+            </div>
+            <div class="gallery-expand-icon">
+              <i class="fa-solid fa-expand"></i>
+            </div>
+          </div>
+
+          <div class="gallery-card" data-category="ambience">
+            <div class="image-placeholder" style="height: 100%; border: none">
+              <i class="fa-solid fa-store placeholder-icon"></i>
+              <span class="placeholder-label"
+                >[Cafe Exterior & Evening Glow]</span
+              >
+              <span class="placeholder-dimensions">800 x 600 • Exterior</span>
+            </div>
+            <div class="gallery-card-overlay">
+              <span class="gallery-card-tag">Ambience</span>
+              <h4 class="gallery-card-title">
+                Warm Evening Glow at Vinayak Nagar
+              </h4>
+            </div>
+            <div class="gallery-expand-icon">
+              <i class="fa-solid fa-expand"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ==========================================================================
+       DELIVERY REDIRECT CARDS (SWIGGY & ZOMATO ONLY)
+       ========================================================================== -->
+    <section class="delivery-section" id="delivery-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fa-solid fa-truck-fast"></i> Doorstep Indulgence</span
+          >
+          <h2 class="section-title">
+            Order Your Favorites <span class="serif">Delivered Fresh</span>
+          </h2>
+          <p class="section-desc">
+            Craving our signature thick shakes or hot gourmet burgers at home?
+            Order easily through our delivery partners.
+          </p>
+        </div>
+
+        <div class="delivery-grid-two">
+          <!-- Swiggy Card -->
+          <div class="delivery-card swiggy">
+            <div>
+              <div class="delivery-card-header">
+                <div class="delivery-brand-badge">
+                  <div class="delivery-icon-box">
+                    <i class="fa-solid fa-utensils"></i>
+                  </div>
+                  <div class="delivery-brand-names">
+                    <h3>Swiggy</h3>
+                    <span>Cookies & Cream Online</span>
+                  </div>
+                </div>
+                <div class="delivery-rating">
+                  <i class="fa-solid fa-star"></i> 4.3 ★
+                </div>
+              </div>
+
+              <div class="delivery-body">
+                <p>
+                  Order fresh thick shakes, hot burgers, and artisan pizzas with
+                  fast delivery and real-time tracking right to your doorstep
+                  across Nizamabad.
+                </p>
+                <div class="delivery-perks">
+                  <span class="delivery-perk-chip"
+                    ><i class="fa-solid fa-bolt"></i> 30-40 Mins</span
+                  >
+                  <span class="delivery-perk-chip"
+                    ><i class="fa-solid fa-tag"></i> Special Offers</span
+                  >
+                  <span class="delivery-perk-chip"
+                    ><i class="fa-solid fa-shield-heart"></i> Contactless</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://www.swiggy.com/city/nizamabad/cookies-n-creams-near-abs-enclave-puhlong-x-road-rest872017"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="delivery-btn"
+              title="Open Swiggy Ordering"
+            >
+              <span>Order on Swiggy</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- Zomato Card -->
+          <div class="delivery-card zomato">
+            <div>
+              <div class="delivery-card-header">
+                <div class="delivery-brand-badge">
+                  <div class="delivery-icon-box">
+                    <i class="fa-solid fa-bowl-food"></i>
+                  </div>
+                  <div class="delivery-brand-names">
+                    <h3>Zomato</h3>
+                    <span>Cookies & Cream Nizamabad</span>
+                  </div>
+                </div>
+                <div class="delivery-rating">
+                  <i class="fa-solid fa-star"></i> 4.4 ★
+                </div>
+              </div>
+
+              <div class="delivery-body">
+                <p>
+                  Enjoy our complete cafe menu on Zomato with live order
+                  tracking, customer ratings, photo reviews, and exclusive app
+                  discounts.
+                </p>
+                <div class="delivery-perks">
+                  <span class="delivery-perk-chip"
+                    ><i class="fa-solid fa-clock"></i> Live Tracking</span
+                  >
+                  <span class="delivery-perk-chip"
+                    ><i class="fa-solid fa-percent"></i> Great Discounts</span
+                  >
+                  <span class="delivery-perk-chip"
+                    ><i class="fa-solid fa-medal"></i> Top Rated</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://www.zomato.com/nizamabad/cookies-n-creams-nizamabad-locality/order"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="delivery-btn"
+              title="Open Zomato Ordering"
+            >
+              <span>Order on Zomato</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       CUSTOMER REVIEWS & TESTIMONIALS SECTION (NEW)
+       ========================================================================== -->
+    <section class="section section-pattern" id="reviews-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fa-solid fa-star"></i> Customer Testimonials</span
+          >
+          <h2 class="section-title">
+            What Nizamabad Says <span class="serif">About Us</span>
+          </h2>
+          <p class="section-desc">
+            We take pride in every smile, every cup, and every sweet celebration
+            hosted at our tables.
+          </p>
+
+          <!-- Google Rating Summary Badge -->
+          <div style="margin-top: 20px">
+            <div class="reviews-summary-badge">
+              <div class="reviews-score">
+                <i
+                  class="fa-brands fa-google"
+                  style="color: #4285f4; margin-right: 6px"
+                ></i>
+                4.8
+              </div>
+              <div class="reviews-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="reviews-count-text">
+                Based on <strong>300+ Happy Reviews</strong> on Google
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card">
+            <i class="fa-solid fa-quote-right review-quote-icon"></i>
+            <div>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <div class="review-dish-tag">
+                <i class="fa-solid fa-utensils"></i> Cookies & Cream Thick Shake
+              </div>
+              <p class="review-text">
+                "Best cafe in Nizamabad without a doubt! Their signature thick
+                shake is so dense, rich and full of real cookie crunch. The dark
+                green ambience and polite staff make it our go-to hangout spot
+                every weekend."
+              </p>
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">RR</div>
+              <div class="review-author-info">
+                <h4>Rohit Reddy</h4>
+                <span>Local Guide • Visited with Friends</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <i class="fa-solid fa-quote-right review-quote-icon"></i>
+            <div>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <div class="review-dish-tag">
+                <i class="fa-solid fa-utensils"></i> Sizzling Brownie & Fries
+              </div>
+              <p class="review-text">
+                "We celebrated my daughter's birthday here in Vinayak Nagar. The
+                sizzling brownie with ice cream was a showstopper! Loved the
+                loaded peri-peri fries and quiet AC seating. Perfect family
+                cafe."
+              </p>
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">SR</div>
+              <div class="review-author-info">
+                <h4>Sneha Rao</h4>
+                <span>Verified Patron • Family Celebration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <i class="fa-solid fa-quote-right review-quote-icon"></i>
+            <div>
+              <div class="review-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <div class="review-dish-tag">
+                <i class="fa-solid fa-utensils"></i> Hazelnut Latte & Pizza
+              </div>
+              <p class="review-text">
+                "As a remote freelancer, finding a comfortable cafe with fast
+                Wi-Fi and proper artisan coffee in Nizamabad was a game changer.
+                The Spanish Caramel Latte and thin-crust pizza are top-tier!"
+              </p>
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">AV</div>
+              <div class="review-author-info">
+                <h4>Aditya Verma</h4>
+                <span>Digital Creator • Regular Visitor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px">
+          <a
+            href="https://maps.app.goo.gl/3cD9z73zLeiVxMaR7"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-dark"
+          >
+            <i class="fa-brands fa-google"></i> Read More Reviews on Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       FREQUENTLY ASKED QUESTIONS (FAQ) SECTION
+       ========================================================================== -->
+    <section class="section section-cream" id="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fa-solid fa-circle-question"></i> Helpful
+            Information</span
+          >
+          <h2 class="section-title">
+            Frequently Asked <span class="serif">Questions</span>
+          </h2>
+          <p class="section-desc">
+            Got questions about our cafe, timings, menu, or party reservations?
+            Find quick answers below.
+          </p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item active">
+            <button class="faq-header" type="button">
+              <span>What are your cafe operating hours?</span>
+              <div class="faq-icon">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="faq-body">
+              <p>
+                COOKIES AND CREAM is open
+                <strong
+                  >all 7 days of the week from 11:00 AM to 10:30 PM</strong
+                >
+                without mid-day breaks. You can check our real-time Open/Closed
+                indicator at the top of every page.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" type="button">
+              <span>Do you have vegetarian and eggless dessert options?</span>
+              <div class="faq-icon">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="faq-body">
+              <p>
+                Yes! We have an extensive range of 100% vegetarian dishes, thick
+                shakes, eggless waffles, and sizzlers clearly highlighted with
+                green markers on our menu.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" type="button">
+              <span
+                >Can we host birthday parties or small group celebrations?</span
+              >
+              <div class="faq-icon">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="faq-body">
+              <p>
+                Absolutely! We love hosting sweet celebrations. Please call us
+                in advance at
+                <a
+                  href="tel:+918885366660"
+                  style="color: var(--color-primary); font-weight: 700"
+                  >+91 88853 66660</a
+                >
+                or use our Contact page reservation form to reserve seating for
+                your group.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" type="button">
+              <span
+                >Do you deliver via Swiggy and Zomato across Nizamabad?</span
+              >
+              <div class="faq-icon">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="faq-body">
+              <p>
+                Yes, we are listed on both <strong>Swiggy</strong> and
+                <strong>Zomato</strong>. You can click the delivery buttons on
+                our website to jump straight to our live delivery menus.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-header" type="button">
+              <span>Is parking and Wi-Fi available at the cafe?</span>
+              <div class="faq-icon">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="faq-body">
+              <p>
+                Yes, we offer hassle-free parking for two-wheelers and cars
+                outside our premises in Srinagar Colony, Vinayak Nagar, along
+                with complimentary high-speed Wi-Fi and air-conditioned seating.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       SOCIAL MEDIA PREVIEW & INSTAGRAM BLOCK
+       ========================================================================== -->
+    <section class="section section-pattern">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"
+            ><i class="fa-brands fa-instagram"></i> Follow
+            @cookiesncreamscnc</span
+          >
+          <h2 class="section-title">
+            Follow Our Sweet <span class="serif">Journey</span>
+          </h2>
+          <p class="section-desc">
+            Tag us in your stories when you visit! Join our growing community of
+            food and coffee lovers in Nizamabad.
+          </p>
+        </div>
+
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 36px;
+          "
+        >
+          <div
+            class="image-placeholder image-placeholder-light"
+            style="min-height: 220px"
+          >
+            <i class="fa-brands fa-instagram placeholder-icon"></i>
+            <span class="placeholder-label">[Instagram Post 1]</span>
+            <span class="placeholder-dimensions"></span>
+          </div>
+
+          <div
+            class="image-placeholder image-placeholder-light"
+            style="min-height: 220px"
+          >
+            <i class="fa-brands fa-instagram placeholder-icon"></i>
+            <span class="placeholder-label">[Instagram Post 2]</span>
+            <span class="placeholder-dimensions"></span>
+          </div>
+
+          <div
+            class="image-placeholder image-placeholder-light"
+            style="min-height: 220px"
+          >
+            <i class="fa-brands fa-instagram placeholder-icon"></i>
+            <span class="placeholder-label">[Instagram Post 3]</span>
+            <span class="placeholder-dimensions"></span>
+          </div>
+
+          <div
+            class="image-placeholder image-placeholder-light"
+            style="min-height: 220px"
+          >
+            <i class="fa-brands fa-instagram placeholder-icon"></i>
+            <span class="placeholder-label">[Instagram Post 4]</span>
+            <span class="placeholder-dimensions"
+              ></span
+            >
+          </div>
+        </div>
+
+        <div style="text-align: center">
+          <a
+            href="https://www.instagram.com/cookiesncreams_cnc/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-dark"
+          >
+            <i class="fa-brands fa-instagram" style="color: #e1306c"></i> Follow
+            Us on Instagram (@cookiesncreamscnc)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="brand-link">
+              <div class="brand-emblem-wrap">
+                <img
+                  src="assets/images/logo.png"
+                  alt="Cookies and Cream Emblem"
+                  class="brand-emblem-img"
+                />
+              </div>
+              <div class="brand-text-block">
+                <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+                <span class="brand-tagline">Crafting Sweet Moments</span>
+              </div>
+            </a>
+            <p class="footer-about">
+              Nizamabad’s destination for gourmet thick shakes, artisan
+              specialty coffees, sizzlers, waffles, pizzas, and comfortable
+              hangout vibes.
+            </p>
+            <div class="footer-socials">
+              <a
+                href="https://www.instagram.com/cookiesncreams_cnc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-icon-btn"
+                aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-icon-btn"
+                aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a
+                href="mailto:cookiesncreamscnc@gmail.com"
+                class="social-icon-btn"
+                aria-label="Email"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Quick Navigation</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="index.html"
+                  ><i class="fa-solid fa-angle-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="#gallery-section"
+                  ><i class="fa-solid fa-angle-right"></i> Photo Gallery</a
+                >
+              </li>
+              <li>
+                <a href="#delivery-section"
+                  ><i class="fa-solid fa-angle-right"></i> Swiggy & Zomato</a
+                >
+              </li>
+              <li>
+                <a href="#reviews-section"
+                  ><i class="fa-solid fa-angle-right"></i> Customer Reviews</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Opening Hours</h4>
+            <div class="timing-box">
+              <div class="timing-days">Monday – Sunday (All 7 Days)</div>
+              <div class="timing-hours">11:00 AM – 10:30 PM</div>
+              <div class="live-status-pill is-open" style="margin-top: 6px">
+                <span class="live-status-dot"></span>
+                <span>Open Now</span>
+              </div>
+              <p
+                style="
+                  font-size: 0.8rem;
+                  color: rgba(250, 247, 242, 0.7);
+                  margin-top: 10px;
+                "
+                data-cafe-timing-desc
+              >
+                Serving fresh bakes, coffee, and savory treats all day long.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-col-title">Visit & Connect</h4>
+            <div class="footer-contact-list">
+              <div class="footer-contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>COOKIES AND CREAM</strong><br />
+                  1/12-142/7/1, Srinagar Colony,<br />
+                  Vinayak Nagar, Nizamabad, Telangana – 503003
+                </div>
+              </div>
+              <div class="footer-contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <a href="tel:+918885366660">+91 88853 66660</a><br />
+                  <a href="tel:+918466866660">+91 84668 66660</a>
+                </div>
+              </div>
+              <div class="footer-contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <a href="mailto:cookiesncreamscnc@gmail.com"
+                    >cookiesncreamscnc@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            &copy; <span id="currentYear">2026</span> COOKIES AND CREAM (CNC).
+            All Rights Reserved.
+          </div>
+          <div>Crafting Sweet Moments in Nizamabad.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================================================
+       MOBILE FLOATING QUICK ACTION BAR (Cleaned: Call, Menu, Gallery, Location)
+       ========================================================================== -->
+    <div class="floating-action-bar">
+      <div class="floating-action-inner">
+        <a href="tel:+918885366660" class="floating-btn primary-call">
+          <i class="fa-solid fa-phone-volume"></i>
+          <span>Call Now</span>
+        </a>
+        <a href="menu.html" class="floating-btn">
+          <i class="fa-solid fa-utensils"></i>
+          <span>Menu</span>
+        </a>
+        <a href="#gallery-section" class="floating-btn">
+          <i class="fa-solid fa-images"></i>
+          <span>Gallery</span>
+        </a>
+        <a href="contact.html#map-location" class="floating-btn">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Directions</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Back To Top Button -->
+    <button class="back-to-top" aria-label="Scroll back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | COOKIES AND CREAM (CNC) - Official Complete Menu</title>
+  <meta name="description" content="Explore the official menu of Cookies and Cream (CNC) Nizamabad. Complete selection of starters, fried chicken, pizzas, burgers, pastas, thick shakes, desserts, and specialty coffees.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./components.css">
+</head>
+<body>
+
+  <!-- Top Bar with Live Open/Closed Status -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <a href="tel:+918885366660" class="topbar-item" title="Call cafe line 1"><i class="fa-solid fa-phone"></i> +91 88853 66660</a>
+        <a href="tel:+918466866660" class="topbar-item" title="Call cafe line 2"><i class="fa-solid fa-mobile-screen"></i> +91 84668 66660</a>
+        <a href="mailto:cookiesncreamscnc@gmail.com" class="topbar-item"><i class="fa-solid fa-envelope"></i> cookiesncreamscnc@gmail.com</a>
+      </div>
+      <div class="topbar-right">
+        <div class="live-status-pill is-open" id="menuLiveStatus">
+          <span class="live-status-dot"></span>
+          <span>Checking Hours...</span>
+        </div>
+        <span class="topbar-item" style="font-size: 0.78rem; opacity: 0.85;">
+          <i class="fa-regular fa-clock"></i> 11:00 AM - 10:30 PM Daily
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-link">
+          <div class="brand-emblem-wrap">
+            <img src="assets/images/logo.png" alt="Cookies and Cream Emblem" class="brand-emblem-img">
+          </div>
+          <div class="brand-text-block">
+            <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+            <span class="brand-tagline">Crafting Sweet Moments</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link active">Menu</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="contact.html" class="nav-link">Contact & Visit</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="#delivery-section" class="btn btn-gold btn-sm">
+            <i class="fa-solid fa-bag-shopping"></i> Order Online
+          </a>
+          <button class="mobile-nav-toggle" aria-label="Open mobile menu">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <div class="drawer-header">
+      <div class="brand-text-block">
+        <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+        <span class="brand-tagline">Crafting Sweet Moments</span>
+      </div>
+      <button class="drawer-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <ul class="drawer-nav">
+      <li><a href="index.html" class="drawer-link"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="menu.html" class="drawer-link active"><i class="fa-solid fa-utensils"></i> Complete Menu</a></li>
+      <li><a href="about.html" class="drawer-link"><i class="fa-solid fa-heart"></i> About Us</a></li>
+      <li><a href="contact.html" class="drawer-link"><i class="fa-solid fa-location-dot"></i> Contact & Directions</a></li>
+    </ul>
+    <div class="drawer-info">
+      <div class="drawer-contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+          <a href="tel:+918885366660">+91 88853 66660</a><br>
+          <a href="tel:+918466866660">+91 84668 66660</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MENU PAGE HERO BANNER
+       ========================================================================== -->
+  <section class="section section-dark" style="padding: 70px 0 46px; text-align: center;">
+    <div class="container">
+      <span class="section-tag"><i class="fa-solid fa-utensils"></i> Complete Official Menu</span>
+      <h1 class="section-title">Our Handcrafted <span class="serif">Menu</span></h1>
+      <p class="section-desc" style="max-width: 720px; margin: 0 auto;">
+        From crispy starters and fried chicken to artisan thin-crust pizzas, gourmet burgers, sizzling desserts, and thick monster shakes. Prepared fresh to order with pure ingredients.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE MENU CONTROLS & CARDS SECTION
+       ========================================================================== -->
+  <section class="section section-pattern" style="padding-top: 40px;" id="menu-browse-section">
+    <div class="container">
+      <!-- Filter & Search Control Panel -->
+      <div class="menu-control-panel">
+        <div class="menu-search-row">
+          <div class="search-input-wrapper">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="menuSearchInput" class="menu-search-input" placeholder="Search any dish or category (e.g. Fries, Wings, Paneer, Margherita, Frappe)..." aria-label="Search menu">
+          </div>
+
+          <!-- Dietary Veg / Non-Veg Filters -->
+          <div class="diet-filters">
+            <button class="diet-filter-btn active" data-diet="all">
+              <i class="fa-solid fa-bowl-rice"></i> All Items
+            </button>
+            <button class="diet-filter-btn" data-diet="veg">
+              <span class="diet-symbol-box veg" style="display: inline-flex; width: 14px; height: 14px; margin-right: 4px;"><span class="diet-symbol-circle" style="width: 6px; height: 6px;"></span></span> Pure Veg
+            </button>
+            <button class="diet-filter-btn" data-diet="nonveg">
+              <span class="diet-symbol-box non-veg" style="display: inline-flex; width: 14px; height: 14px; margin-right: 4px;"><span class="diet-symbol-circle" style="width: 6px; height: 6px;"></span></span> Non-Veg
+            </button>
+          </div>
+        </div>
+
+        <!-- Dynamic Category Pills Bar -->
+        <div class="category-pills-bar" id="categoryPillsContainer">
+          <!-- Populated by menu.js using MENU_CATEGORIES from menu-data.js -->
+        </div>
+
+        <!-- Item Count Indicator & Tax Note -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 18px; font-size: 0.88rem; color: var(--color-muted); flex-wrap: wrap; gap: 8px;">
+          <span id="menuItemCount">Loading dishes...</span>
+          <span style="font-size: 0.8rem;"><i class="fa-solid fa-circle-info" style="color: var(--color-gold);"></i> Prices in INR (₹) &bull; Inclusive of all taxes</span>
+        </div>
+      </div>
+
+      <!-- Menu Items Grid Container (Simple, Clean, Pure Information) -->
+      <div class="menu-grid" id="menuGrid">
+        <!-- Rendered dynamically by assets/js/menu.js from assets/js/menu-data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DELIVERY REDIRECT CARDS (SWIGGY & ZOMATO ONLY)
+       ========================================================================== -->
+  <section class="delivery-section" id="delivery-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-motorcycle"></i> Doorstep Delivery</span>
+        <h2 class="section-title">Order Online for <span class="serif">Home Delivery</span></h2>
+        <p class="section-desc">Get your favorites delivered hot and fresh anywhere across Nizamabad through Swiggy or Zomato.</p>
+      </div>
+
+      <div class="delivery-grid-two">
+        <!-- Swiggy Card -->
+        <div class="delivery-card swiggy">
+          <div>
+            <div class="delivery-card-header">
+              <div class="delivery-brand-badge">
+                <div class="delivery-icon-box"><i class="fa-solid fa-utensils"></i></div>
+                <div class="delivery-brand-names">
+                  <h3>Swiggy</h3>
+                  <span>Cookies & Cream Online</span>
+                </div>
+              </div>
+              <div class="delivery-rating"><i class="fa-solid fa-star"></i> 4.3 ★</div>
+            </div>
+            <div class="delivery-body">
+              <p>Lightning-fast doorstep delivery in 30-40 minutes with contactless drops and live order updates.</p>
+            </div>
+          </div>
+          <a href="https://www.swiggy.com/city/nizamabad/cookies-n-creams-near-abs-enclave-puhlong-x-road-rest872017" target="_blank" rel="noopener noreferrer" class="delivery-btn">
+            <span>Order on Swiggy</span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <!-- Zomato Card -->
+        <div class="delivery-card zomato">
+          <div>
+            <div class="delivery-card-header">
+              <div class="delivery-brand-badge">
+                <div class="delivery-icon-box"><i class="fa-solid fa-bowl-food"></i></div>
+                <div class="delivery-brand-names">
+                  <h3>Zomato</h3>
+                  <span>Cookies & Cream Nizamabad</span>
+                </div>
+              </div>
+              <div class="delivery-rating"><i class="fa-solid fa-star"></i> 4.4 ★</div>
+            </div>
+            <div class="delivery-body">
+              <p>Explore exclusive combo offers, customer ratings, and live tracking on your Zomato mobile app.</p>
+            </div>
+          </div>
+          <a href="https://www.zomato.com/nizamabad/cookies-n-creams-nizamabad-locality/order" target="_blank" rel="noopener noreferrer" class="delivery-btn">
+            <span>Order on Zomato</span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER (SORTED & VERIFIED QUICK NAV)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <div class="brand-emblem-wrap">
+              <img src="assets/images/logo.png" alt="Cookies and Cream Emblem" class="brand-emblem-img">
+            </div>
+            <div class="brand-text-block">
+              <span class="brand-title">COOKIES <span>N</span> CREAMS</span>
+              <span class="brand-tagline">Crafting Sweet Moments</span>
+            </div>
+          </a>
+          <p class="footer-about">
+            Nizamabad’s destination for gourmet thick shakes, artisan specialty coffees, sizzlers, waffles, pizzas, and comfortable hangout vibes.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/cookiesncreams_cnc/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:cookiesncreamscnc@gmail.com" class="social-icon-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+       <div>
+            <h4 class="footer-col-title">Quick Navigation</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="index.html"
+                  ><i class="fa-solid fa-angle-right"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="#gallery-section"
+                  ><i class="fa-solid fa-angle-right"></i> Photo Gallery</a
+                >
+              </li>
+              <li>
+                <a href="#delivery-section"
+                  ><i class="fa-solid fa-angle-right"></i> Swiggy & Zomato</a
+                >
+              </li>
+              <li>
+                <a href="#reviews-section"
+                  ><i class="fa-solid fa-angle-right"></i> Customer Reviews</a
+                >
+              </li>
+            </ul>
+          </div>
+
+        <div>
+          <h4 class="footer-col-title">Opening Hours</h4>
+          <div class="timing-box">
+            <div class="timing-days">Monday – Sunday (All 7 Days)</div>
+            <div class="timing-hours">11:00 AM – 10:30 PM</div>
+            <div class="live-status-pill is-open" style="margin-top: 6px;">
+              <span class="live-status-dot"></span>
+              <span>Open Now</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Cafe Location</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>COOKIES AND CREAM</strong><br>
+                1/12-142/7/1, Srinagar Colony,<br>
+                Vinayak Nagar, Nizamabad, Telangana – 503003
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <a href="tel:+918885366660">+91 88853 66660</a><br>
+                <a href="tel:+918466866660">+91 84668 66660</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 COOKIES AND CREAM (CNC). All Rights Reserved.</div>
+        <div>Crafting Sweet Moments in Nizamabad.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Bar -->
+  <div class="floating-action-bar">
+    <div class="floating-action-inner">
+      <a href="tel:+918885366660" class="floating-btn primary-call">
+        <i class="fa-solid fa-phone-volume"></i>
+        <span>Call</span>
+      </a>
+      <a href="#menu-browse-section" class="floating-btn">
+        <i class="fa-solid fa-utensils"></i>
+        <span>Dishes</span>
+      </a>
+      <a href="index.html#gallery-section" class="floating-btn">
+        <i class="fa-solid fa-camera"></i>
+        <span>Gallery</span>
+      </a>
+      <a href="contact.html#map-location" class="floating-btn">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Location</span>
+      </a>
+    </div>
+  </div>
+
+  <button class="back-to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Scripts -->
+  <script src="./main.js"></script>
+  <script src="./menu-data.js"></script>
+  <script src="./menu.js"></script>
+</body>
+</html>
